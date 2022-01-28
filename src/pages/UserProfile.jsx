@@ -8,7 +8,7 @@ import UsersContext from "../context/users/UsersContext"
 
 import "../components/userprofile.scss"
 
-const UserProfile = (props = "test") => {
+const UserProfile = (props) => {
   const { usersData } = useContext(UsersContext)
   const userSlug = props.match.params.id
   const [profileData, setProfileData] = useState()
