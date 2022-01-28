@@ -1,0 +1,48 @@
+@import "../../variables";
+.profile-card {
+  margin-left: 12px;
+  width: 211px;
+  height: 34px;
+  &__button {
+    position: relative;
+    right: 0;
+    &-end {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  &__profile-value {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: 10px;
+    &-addon {
+      margin-left: 12px;
+    }
+  }
+  &__profile-text-area {
+    resize: none;
+    margin-left: 12px;
+    height: 55px;
+    width: 420px;
+    border: 2px solid $color-input;
+    border-radius: 5px;
+  }
+  &__profile-input {
+    height: 22px;
+    padding: 0px 5px;
+    border: 2px solid $color-input;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 10px;
+    margin: 0;
+    &-warn {
+      border: 2px solid $color-warn;
+    }
+  }
+  ::placeholder {
+    font-size: 10px;
+  }
+  &:first-of-type {
+    margin-top: 31px;
+  }
+}

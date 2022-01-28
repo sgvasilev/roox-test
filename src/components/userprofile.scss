@@ -1,0 +1,19 @@
+@import "../variables";
+.user-profile-wrapper {
+  margin-left: 36px;
+  width: 438px;
+  display: flex;
+  justify-content: space-between;
+}
+.profile {
+  &__button {
+    position: relative;
+    right: 0;
+  }
+}
+.profile {
+  border: 2px solid $color-background;
+  border-radius: 8px;
+  margin-left: 36px;
+  margin-top: 17px;
+}

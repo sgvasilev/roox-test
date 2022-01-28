@@ -1,0 +1,13 @@
+@import "reset.scss";
+*,
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+.main__wrapper {
+  height: 100%;
+}
+#root {
+  overflow-y: scroll;
+}

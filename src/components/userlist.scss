@@ -1,0 +1,45 @@
+@import "../variables";
+
+.wrapper {
+  display: flex;
+  min-height: 100%;
+  max-width: 665px;
+  margin: 0 auto;
+}
+.aside {
+  background-color: $color-aside;
+  width: 152px;
+}
+.aside-filter {
+  margin-left: 20px;
+
+  &__logo {
+    color: #000;
+    margin-top: 35px;
+  }
+}
+.button {
+  display: block;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+  &_primary {
+    background-color: $color-primary;
+  }
+  &_unstyled {
+    border: none;
+    color: $color-primary;
+    background-color: $color-background;
+  }
+  &_disabled {
+    background-color: $color-secondary;
+    color: white;
+    cursor: not-allowed;
+  }
+  &_success {
+    background-color: $color-success;
+  }
+}
